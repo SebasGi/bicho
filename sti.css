@@ -1,0 +1,39 @@
+.f1{
+	background: #3ADF00;
+	position: absolute;
+	left: 700px;
+	width: 500px;
+	padding: 10px;
+}
+.f2{
+	background: #FFFF00;
+	position: absolute;
+	padding: 10px;
+	top: 230px;
+	left: 700px;
+	width: 500px;
+}
+.f1:hover
+{
+	visibility: visible;
+	position: absolute;
+	height: 20%;
+	width: 500px;
+	background:#00FFFF;
+	left: 700px;
+	top: 10px;
+	border-radius: 25px;
+	opacity: 1; 
+}
+.f2:hover
+{
+	visibility: visible;
+	position: absolute;
+	height: 30%;
+	width: 500px;
+	background:#FF8000;
+	left: 700px;
+	top: 240px;
+	border-radius: 25px;
+	opacity: 1; 
+}
