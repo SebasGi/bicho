@@ -1,0 +1,55 @@
+body{
+	background-color: #ffdd90;
+	background-image: url("LA.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.A{
+	font-style: italic;
+	text-align: center;
+	position: absolute;
+	top: 200px;
+	left: 650px;
+	width: 200px,
+	height: 100px;
+	background: red;
+}
+.B{
+	font-style: italic;
+	text-align: center;
+	position: absolute;
+	top: 200px;
+	left: 650px;
+	width: 200px,
+	height: 100px;
+	background: yellow;
+}
+.C{
+	font-style: italic;
+	text-align: center;
+	position: absolute;
+	top: 200px;
+	left: 650px;
+	width: 200px,
+	height: 100px;
+	background: pink;
+}
+.boton{
+	background: #3ADF00;
+	position: absolute;
+	top: 400px;
+	left: 880px;
+	width: 800px,
+	height:700px;
+	padding: 10px;
+	border-radius: 25px;
+	border: black 1px solid;
+}
+.CR{
+	background: #CEE3F6;
+	position: absolute;
+	top: 105px;
+	left: 620px;
+	width: 600px;
+	height: 200px;
+}
