@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> 
+	<meta charset="utf-8">
+	<title>TAREA 3</title>
+</head>
+<script type="text/javascript" charset="utf-8">
+        $(document).keydown(function (tecla)
+         {
+            if (tecla.keyCode == 65)
+            {
+                document.getElementById('A').style.display="block";
+                document.getElementById('B').style.display="none";
+                document.getElementById('C').style.display="none";
+                document.getElementById('div').style.display="none";
+            }
+
+            if (tecla.keyCode == 66) 
+            {
+            	document.getElementById("B").style.display="block";
+            	document.getElementById('A').style.display="none";
+                document.getElementById('C').style.display="none";
+                document.getElementById('div').style.display="none";
+            }
+
+            if (tecla.keyCode == 67) 
+            {
+                document.getElementById('C').style.display="block";
+                document.getElementById('A').style.display="none";
+                document.getElementById('B').style.display="none";  
+                document.getElementById('div').style.display="none";
+            }
+        });
+      </script> 
+<body>
+	<center>
+
+            <div class="div">
+			<script type="text/javascript">
+				function frase() 
+				{
+					var frase;
+					var opcion = prompt("Ingrese una frase", "");
+
+					if(opcion == null || opcion == "")
+					{
+						frase = "Debe ingresar una frase"; 
+					}
+					else 
+					{
+						frase = opcion;
+						alert("Oprima la Letra A,B o C para cambiar el color");
+					}
+					document.getElementById("div").innerHTML = frase;
+					document.getElementById("A").innerHTML = frase;
+					document.getElementById("B").innerHTML = frase;
+					document.getElementById("C").innerHTML = frase;
+				}
+			</script>
+		</div>
+
+		<div class="CR" id="CR"></div>
+
+		<div id="div" class="contenido">
+		</div>
+
+		<div class="A" id="A">
+		</div>
+
+		<div class="B" id="B">
+		</div>
+
+		<div class="C" id="C">
+		</div>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<center><input type="button" value="MENSAJE" class="boton" onclick="frase()"></center>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<center><h3 style="color: yellow"> Profesor esto fue lo único que me dio, me di el trabajo de investigar pero no me dieron las cosas, entonces le entrego esto, espero alcance para poder ganar.</h3></center>
+	</center>
+</body>
+</html>
