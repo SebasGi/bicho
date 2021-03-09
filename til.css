@@ -1,0 +1,11 @@
+.cuadro{
+	position: absolute;
+	width: 700px;
+	height: 500px;
+	top: 10%;
+	left: 550px;
+    border: blue 10px double;
+}
+body{
+	background-color: #F4FA58;
+}
